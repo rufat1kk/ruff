@@ -1,0 +1,18 @@
+﻿<Window x:Class="апрарарарпар.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:апрарарарпар"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="1200">
+    <Grid>
+
+        <Canvas x:Name="MainCanvas" Background="#FFd3">
+            <Button x:Name="runningButton" Content="Нажми дам 1к" Width="175" Height="61" 
+                MouseEnter="RunningButton_MouseEnter" 
+                Canvas.Left="360" Canvas.Top="206" Click="runningButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF00" FontSize="16" FontWeight="Bold"/>
+        </Canvas>
+
+    </Grid>
+</Window>
